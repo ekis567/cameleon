@@ -4,7 +4,9 @@ Opt("MustDeclareVars", 1)
 
 HotKeySet("{ESC}","Stop")
 
-Dim $PName, $PIndex, $hndleLview
+Dim $PName
+Dim $PIndex
+Dim $hndleLview
 
 Global Const $LVM_DELETEITEM = 0x1008
 
